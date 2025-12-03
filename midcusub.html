@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bishaaro Portfolio – Modern Design</title>
+  <style>
+    :root{
+      --bg:#f5f7ff;
+      --card:#ffffff;
+      --accent:#6d28d9; /* Purple */
+      --accent2:#9333ea;
+      --text:#0f172a;
+      --muted:#64748b;
+      --radius:18px;
+      font-family: "Poppins", sans-serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);line-height:1.6;padding:0;margin:0}/* HERO SECTION */
+.hero{
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  padding:70px 20px;
+  text-align:center;
+  color:white;
+}
+.hero img{
+  width:130px;height:130px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,0.7);
+  margin-bottom:20px;
+}
+.hero h1{font-size:32px;font-weight:700;margin-bottom:6px}
+.hero p{font-size:15px;opacity:0.9}
+.btn-main{
+  display:inline-block;margin-top:18px;background:white;color:var(--accent);
+  padding:12px 20px;border-radius:var(--radius);font-weight:600;text-decoration:none;font-size:14px;
+  transition:0.3s;
+}
+.btn-main:hover{background:#f3e8ff}
+
+/* SECTION WRAPPER */
+.section{padding:60px 20px;max-width:1100px;margin:auto}
+.section h2{text-align:center;font-size:26px;margin-bottom:30px;color:var(--accent)}
+
+/* SERVICES */
+.services{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;
+}
+.card{
+  background:var(--card);
+  padding:22px;border-radius:var(--radius);
+  box-shadow:0 8px 28px rgba(0,0,0,0.08);
+  transition:0.3s;cursor:pointer;
+}
+.card:hover{transform:translateY(-6px);box-shadow:0 12px 34px rgba(0,0,0,0.12)}
+.card h3{margin-bottom:8px;font-size:18px}
+.card p{font-size:14px;color:var(--muted);margin-bottom:10px}
+.card ul{padding-left:18px;font-size:13px;color:var(--muted)}
+
+/* CONTACT */
+.contact{
+  background:white;padding:40px;border-radius:var(--radius);
+  box-shadow:0 8px 28px rgba(0,0,0,0.05);
+  max-width:600px;margin:20px auto;
+}
+.contact div{margin-bottom:14px}
+.contact strong{color:var(--accent2)}
+
+  </style>
+</head>
+<body>  <!-- HERO SECTION -->  <section class="hero">
+
+    <img src="/sawir/bish.jpg" alt="Bishaaro Aadan Cali" />
+
+
+    <h1>Bishaaro Aadan Cali</h1>
+    <p>Frontend Designer • Graphic Designer • Video Editor</p>
+    <a class="btn-main" href="#contact">Hire Me</a>
+  </section>  <!-- SERVICES -->  <section class="section">
+    <h2>My Services</h2>
+    <div class="services"><div class="card">
+    <h3>Web Design (HTML & CSS)</h3>
+    <p>I build clean, modern, fast and responsive websites.</p>
+    <ul>
+      <li>Portfolio & Personal Websites</li>
+      <li>Landing Pages</li>
+      <li>Simple Business Websites</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Graphic Design (Photoshop)</h3>
+    <p>I create professional visuals for digital & print.</p>
+    <ul>
+      <li>Logos & Branding</li>
+      <li>Posters & Flyers</li>
+      <li>Social Media Designs</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Video Editing (Premiere Pro)</h3>
+    <p>Smooth, clean, and modern video edits for social media.</p>
+    <ul>
+      <li>TikTok & Reels</li>
+      <li>YouTube Videos</li>
+      <li>Advertisements</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>UI/UX Simple Designs</h3>
+    <p>I design user-friendly interfaces for apps & websites.</p>
+    <ul>
+      <li>App Mockups</li>
+      <li>Web UI Layouts</li>
+    </ul>
+  </div>
+
+</div>
+
+  </section>  <!-- CONTACT -->  <section class="section" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <div><strong>Email:</strong> adaanbishaaro5@gmail.com</div>
+      <div><strong>Phone:</strong> +252 0907767081</div>
+      <div><strong>Location:</strong> Gaalkacyo, Somalia</div>
+      <div><strong>Instagram:</strong> @bishaaro_designs</div>
+      <div><strong>TikTok:</strong> @bishaaro</div>
+    </div>
+  </section></body>
+</html>
